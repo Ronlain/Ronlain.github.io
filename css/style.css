@@ -1,0 +1,27 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,
+sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,
+header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}
+ol,ul{list-style:none}
+h1{font-size:2em}h2{font-size:1.75em}h3{font-size:1.5em}h1,h2,h3,h4,h5,h6{font-family:"Titillium Web",sans-serif}
+.container{width:1080px;margin:auto;box-sizing:border-box;margin-top:50px;border-top:4px solid #3d0364}@media (max-width: 1080px){.container{width:100% !important}} 
+.profile{padding:30px;background:rgba(255,255,255,0.75);overflow:auto}
+.profile .profile-image{width:495px;height:400px;float:left;padding-right:15px;text-align:right}
+.profile .profile-image img{width:400px}
+.profile .profile-info-container{min-height:400px;display:flex;align-items:center}
+.profile .profile-info-container .profile-info{padding-left:15px;width:435px;float:left}
+.profile .profile-info-container .profile-info h2{font-weight:bold;font-size:2em}
+.profile .profile-info-container p{margin-top:15px}
+.profile ul{list-style-type:square;padding-left:30px;line-height:1.4em}
+.profile ul li{margin-top:10px}
+.clear{clear:both}
+.projects{padding:2px 30px 30px 30px;background:rgba(255,255,255,0.75); border-top:4px solid #3d0364; margin-top:30px}
+.projects .proj-title{padding:10px 0 10px 0; border: 4px solid #3d3d3d; background: #505050} /*containter for title of projects section*/
+.projects h2{padding:5px 0 5px 0;}
+.project-list-item{margin:0 20px 22.5px 0;position:relative}
+.project-list-item .project-media{width:415px; height:400px; float:left; padding-right:15px;text-align:left;}
+.project-list-item .project-media img{width: 400px}
+.project-list-item .project-description{min-height:400px;display:flex;align-items:center}
+.project-list-item .project-description .project-info{padding-left:15px;width:435px;float:left}
+.project-list-item .project-description .profile-info h2{}
+
