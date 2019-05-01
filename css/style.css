@@ -4,6 +4,8 @@ header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1} body{background-color: #535353;}
 ol,ul{list-style:none} 
 h1{font-size:2em}h2{font-size:1.75em}h3{font-size:1.5em}h1,h2,h3,h4,h5,h6{font-family:"Bookman"}p,ul,li{font-family:"Arial"}
+
+/* navbar CSS*/
 .navbar{width:1080px;margin:auto;box-sizing:border-box;padding-top:25px; border-bottom:4px solid black;background:rgba(255,255,255,0.85)}@media (max-width: 1080px)
 {.navbar{width:100% !important}}
 .navbar a{color:black;text-decoration: none}
@@ -11,6 +13,8 @@ h1{font-size:2em}h2{font-size:1.75em}h3{font-size:1.5em}h1,h2,h3,h4,h5,h6{font-f
 .table{display:table; margin:0 auto;vertical-align: middle;text-align: center;padding-bottom: 10px}
 ul#horizontal-list{min-width: 600px;list-style: none; width:100%}
 ul#horizontal-list li{display: inline; padding:0 1% 0 1%;font-size:1.3em}
+
+/* homepage CSS*/
 .container{width:1080px;margin:auto;box-sizing:border-box;margin-top:30px;border-top:4px solid #3d0364}@media (max-width: 1080px){.container{width:100% !important}} 
 .profile{padding:30px;background:rgba(255, 255, 255, 0.85);overflow:auto}
 .profile a{color:#7400c2;text-decoration: none} 
@@ -39,3 +43,15 @@ font-family: "Arial"}
 .project-list-item .project-description .project-info{width:100%;float:left}
 .project-list-item .project-description .project-info h3{padding-bottom: 15px}
 .project-list-item .project-description .project-info p{padding-bottom: 20px; line-height:20px}
+
+/* CSS for individual project pages*/
+.project-page{background:rgba(255, 255, 255, 0.85);overflow: auto}
+.project-page .project-header{margin-left: 5%;margin-right: 5%;height:500px}
+.project-page .project-header h4{font-size: 2em; text-align: center; padding:1% 0 1% 0}
+.project-page .project-header iframe{width:100%; height: 100%; border: 5px solid #3d0364cc}
+.project-page .project-body{padding:80px 5% 50px 5% ;font-size: 1.1em}
+.project-page .project-body h2{margin-bottom: 10px}
+.project-page .project-body h4{text-align: center; margin-bottom: 10px}
+.project-page .project-body p{margin-bottom: 10px;line-height: 1.5em}
+.project-page .project-body ul{list-style-type: square;margin-left: 5%; font-size:1.1em}
+.project-page .project-body li{margin-bottom: 10px}
