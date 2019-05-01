@@ -10,7 +10,7 @@ h1{font-size:2em}h2{font-size:1.75em}h3{font-size:1.5em}h1,h2,h3,h4,h5,h6{font-f
 .navbar a:hover{color:#7400c2;-webkit-transition-duration: 0.2s; transition-duration: 0.2s}
 .table{display:table; margin:0 auto;vertical-align: middle;text-align: center;padding-bottom: 10px}
 ul#horizontal-list{min-width: 600px;list-style: none; width:100%}
-ul#horizontal-list li{display: inline; padding:0 1% 0 1%;font-size:1.2em}
+ul#horizontal-list li{display: inline; padding:0 1% 0 1%;font-size:1.3em}
 .container{width:1080px;margin:auto;box-sizing:border-box;margin-top:30px;border-top:4px solid #3d0364}@media (max-width: 1080px){.container{width:100% !important}} 
 .profile{padding:30px;background:rgba(255, 255, 255, 0.85);overflow:auto}
 .profile a{color:#7400c2;text-decoration: none} 
@@ -21,7 +21,7 @@ ul#horizontal-list li{display: inline; padding:0 1% 0 1%;font-size:1.2em}
 .profile .profile-info-container .profile-info{padding-left:15px;width:435px;float:left;}
 .profile .profile-info-container .profile-info h2{font-weight:bold;font-size:2em}
 .profile .profile-info-container p{margin-top:15px}
-.profile ul{list-style-type:square;padding-left:30px;line-height:1.4em; font-size:1.2em}
+.profile ul{list-style-type:square;padding-left:30px;line-height:1.4em; font-size:1.3em}
 .profile ul li{margin-top:10px}
 .clear{clear:both}
 .projects{padding:2px 30px 30px 30px;background:rgba(255,255,255,0.85); border-top:4px solid #3d0364; margin-top:30px}
