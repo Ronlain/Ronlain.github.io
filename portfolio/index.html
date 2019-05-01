@@ -4,15 +4,25 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>James Rankin - Programmer</title>
-<link href="../css/w3.css" rel="stylesheet" type="text/css">
+<!--<link href="../css/w3.css" rel="stylesheet" type="text/css">-->
 <link href="../css/style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body bgcolor="grey">
+<body>
 <header>
     <!--Some sort of navbar with everything on it: Resume, Linkedin, About, Projects, Github, email -->
-</header>
 
+</header>
+<div class="navbar">
+    <div class="table">
+        <ul id="horizontal-list"><b>
+            <li><a href=../portfolio/index.html#about>About</a></li>
+            <li><a href=../portfolio/index.html#professional_projects>Professional Projects</a></li>
+            <li><a href=../portfolio/index.html#team_projects>Team Projects</a></li>
+            <li><a href=../portfolio/Resume.pdf>Resume</a></li></b>
+        </ul>
+    </div>
+</div>
 <div class="container">
     <div class="index">
         <a name="about"></a>
@@ -26,34 +36,34 @@
                     <h3>Programmer & Game Developer</h3>
                     <p></p>
                     <ul>
-                    <li>I go to Becker College</li>
+                    <li>I go to <a href=https://www.becker.edu>Becker College</a></li>
                     <li>I am 20 years old</li>
                     <li>I have experience with multiple programming languages including C#, Javascript, and SQL </li>
                     <li>I am available for internships as well as full and part time work</li>
+                    <li>You can find me on <a href=https://www.linkedin.com/in/james-rankin37>LinkedIn</a>, <a href=https://github.com/Ronlain>Github</a>, or contact me via email at rankin3773@gmail.com</li>
                     </ul>
                     <p></p>
                 </div>
             </div>
         </div>
         <div class="clear"></div>
-        <a name="projects"></a>
         <div class="projects">
             <div class="proj-title">
-                <h2 style="text-align: center; color:#ffffffb7">Professional Experience</h2>
+                <a name="professional_projects"></a>
+                <h4>Professional Experience</h4>
             </div>
             <h2>Leap-A-Head</h2>
             <div class="project-list-item">
                 <div class="project-media">
-                    <!--<img src="thumbnails/LAH.jpg" alt="LAH">-->
-                    <iframe width="450" height="325" src="https://www.youtube.com/embed/FAIxCHqCCM4" frameborder="0" 
+                    <iframe src="https://www.youtube.com/embed/FAIxCHqCCM4" frameborder="0" 
                     allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <a href="../construction.html"><button>Read More</button></a>
                 </div>
                 <div class="project-description">
                     <div class="project-info">
-                        <h2>Summary:</h2>
+                        <h3>Summary:</h3>
                         <p>Leap into a mysterious ancient temple as a treasure loving snake! Challenge your puzzle solving talents and test your dexterity with this new puzzle-platformer.</p>
-                        <h2>Responsibilities:</h2>
+                        <h3>Responsibilities:</h3>
                         <p>Brainstorming, Proof of Concept for Mechanics, Playtesting, Gameplay Programming, Weekly Builds</p>
                         <p>
                             <a href="https://play.google.com/store/apps/details?id=com.MassDiGI.LeapAHead">
@@ -71,14 +81,31 @@
                 </div>
             </div>
             <div class="proj-title">
-                <h2 style="text-align: center; color:#ffffffb7">Team Projects</h2>
+                <a name="team_projects"></a>
+                <h4>Team Projects</h4>
+            </div>
+            <h2>Zoombies</h2>
+            <div class="project-list-item">
+                <div class="project-media">
+                        <iframe src="https://www.youtube.com/embed/g1FpL1UHKrw" frameborder="0" 
+                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <a href="../construction.html"><button>Read More</button></a>
+                </div>
+                <div class="project-description">
+                    <div class="project-info">
+                        <h3>Summary:</h3>
+                        <p>Bike your way though a post-apocalyptic wasteland full of zombies and death! Will you deliver the cure, or will humanity fall? Find out in this VR biking experience.</p>
+                        <h3>Responsibilities:</h3>
+                        <p>UI Programming, Gameplay Programming, Optimization</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
 
-<footer class=" w3-container w3-center">
+<footer style="text-align:center">
         © James Rankin. All content and trademarks property of their respective owners.
 </footer>
 </body>
